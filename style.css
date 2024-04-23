@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    /* Aplica a Imagem */
+    background-image: url(img/pexels-codioful-7135012.jpg);
+    /* Náo repetir a imagem */
+    background-repeat: no-repeat;
+    /* Cobrir todo o fundo da tela com a mesma imagem */
+    background-size: cover;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    color: #1E4976;
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+.informacao p {
+    font-size: 25px;
+    color: #1E4976;
+    text-transform: uppercase;
+    font-family: "Indie Flower,"cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+.efeito-vidro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 26px;
+    border: 30px solid rgba( 255, 255, 255, 0.18 );
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#inputName {
+    width: 550px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 10px;
+
+}
+
+#inputCel {
+    width: 550px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 10px;
+}
+
+#inputEmail {
+    width: 340px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 10px;
+
+}
+
+.botaoLogin {
+    width: 200px;
+    height: 40px;
+    color: #1E4976;
+    background-color: #96BDDA;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.redes {
+    margin-top: 50px;
+    margin-left: 200px; 
+    
+}
+
+.redes img {
+    text-decoration: none;
+    width: 35px;
+    margin-left: 10px;
+}
+
